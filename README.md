@@ -5,15 +5,15 @@
 ## Objectif 
 
 1. Build an api that provide endpoint `/populate`:
-    use the package [node-car-api](https://github.com/92bondstreet/node-car-api)] to get all records in json format
-    index - with bulk - all records to Elasticsearch
+    * use the package [node-car-api](https://github.com/92bondstreet/node-car-api)] to get all records in json format
+    * index - with bulk - all records to Elasticsearch
 2. Build an api that provide endpoint `/suv
 
 More precisely, the api
 
-* must listen port `9292`
-* must provide endpoint `/populate` to index records to Elasticsearch 
-* must provide endpoint `/suv` that return list of paginated higher rate and higher volume suv (The `/suv` endpoint could be a ES query to fetch the right data)
+* listen port `9292`
+* provide endpoint `/populate` to index records to Elasticsearch 
+* provide endpoint `/suv` that return list of paginated higher rate and higher volume suv (The `/suv` endpoint could be a ES query to fetch the right data)
 
 ### Stack
 ```
