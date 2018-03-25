@@ -7,7 +7,7 @@ var client = new elasticsearch.Client({
   log: 'trace'
 });
 
-/*Return array of models for the given brand*/
+/*Pushing records to Elasticsearch*/
 function addToElastic(model) {
 	client.create({
         index: 'cars',
